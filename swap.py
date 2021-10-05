@@ -9,5 +9,5 @@ Returns:
 
 
 def swap_last_item(list):
-    list[0], list[len(list)] = list[len(list)], list[0]
+    list[0], list[len(list) - 1] = list[len(list) - 1], list[0]
     return list
