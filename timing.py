@@ -2,9 +2,17 @@
 Calculates the time taken to run a function.
 
 Params:
-  None
+  do_this: Function that waits 2 seconds.
+  Params:
+    None
+  Returns:
+    Nothing
 Returns:
-  None
+  time_this: Function that prints the function's runtime.
+  Params:
+    None
+  Returns:
+    thing: The runtime of the function do_this.
 '''
 
 import time

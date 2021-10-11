@@ -2,9 +2,9 @@
 Parses a user-given string into a mathematical expression.
 
 Params:
-    None
+  None
 Returns:
-    Nothing
+  Nothing
 '''
 
 
@@ -28,18 +28,18 @@ def parse_input():
 Calculates a mathematical expression and returns its result.
 
 Params:
-    number1: Any number.
-    number2: Any number.
-    operator: The operation to use on the above numbers.
+  number1: Any number.
+  number2: Any number.
+  operator: The operation to use on the above numbers.
 Operators:
-    '+': Adds number1 and number2.
-    '-': Subtracts number1 and number2.
-    '*': Multiplies number1 and number2.
-    '/': Divides number1 and number2.
-    '**': Raises number1 to the number2 power.
-    '//': Divides number1 and number2, then takes the floor of the quotient.
+  '+': Adds number1 and number2.
+  '-': Subtracts number1 and number2.
+  '*': Multiplies number1 and number2.
+  '/': Divides number1 and number2.
+  '**': Raises number1 to the number2 power.
+  '//': Divides number1 and number2, then takes the floor of the quotient.
 Returns:
-    result: The result of the calculation.
+  result: The result of the calculation.
 '''
 
 
