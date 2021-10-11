@@ -1,5 +1,6 @@
 '''
 Swaps the first and last items of a list.
+
 Params:
   list: The list to be modified.
 
