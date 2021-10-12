@@ -20,6 +20,9 @@ def parse_input():
     for i in range(0, len(eqn)):
         if not (eqn[i].isalnum() or eqn[i].isspace() or eqn[i] == '.'):
             op += eqn[i]
+    if nums[1] == 0:
+        print('False')
+        quit()
     print(calculator(nums[0], nums[1], op))
     return
 
@@ -51,8 +54,10 @@ def calculator(number1, number2, operator):
     elif operator == '*':
         return number1 * number2
     elif operator == '/':
-        return number1 / number2
+        if not number2 == 0:
+            return number1 / number2
     elif operator == '**':
         return number1 ** number2
     elif operator == '//':
-        return number1 // number2
+        if not number2 == 0:
+            return number1 // number2
